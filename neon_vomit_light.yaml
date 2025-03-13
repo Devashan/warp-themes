@@ -1,0 +1,25 @@
+name: Neonie Vomit Light Theme
+accent: '#FF0099' # Bright neon pink as accent
+cursor: '#00FF66' # Bright neon green cursor
+background: '#F8F8F8' # Very light background
+foreground: '#1A1A1A' # Dark foreground text for readability
+details: lighter # This is a light theme with bright colors
+terminal_colors: # Ansi escape colors with neon palette on light background
+  bright:
+    black: '#505050' # Medium gray (darker than normal)
+    blue: '#0088FF' # Bright blue
+    cyan: '#00BBCC' # Strong cyan
+    green: '#00CC66' # Vibrant green
+    magenta: '#DD00DD' # Vibrant magenta
+    red: '#FF0066' # Bright pink-red
+    white: '#FFFFFF' # Pure white
+    yellow: '#DDAA00' # Amber/gold
+  normal:
+    black: '#303030' # Dark gray instead of pure black
+    blue: '#0066FF' # Strong blue
+    cyan: '#00AAAA' # Medium cyan
+    green: '#00BB00' # Medium green
+    magenta: '#CC00CC' # Medium magenta
+    red: '#FF3333' # Bright red
+    white: '#F0F0F0' # Very light gray
+    yellow: '#FFAA00' # Orange-yellow
