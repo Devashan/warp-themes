@@ -16,16 +16,6 @@ cd warp-themes
 
 ## Installing Themes in Warp
 
-### macOS & Linux
-1. Open Warp.
-2. Click on `Settings` (⚙️ icon) in the top-right corner.
-3. Navigate to the `Appearance` section.
-4. Click `Import Theme`.
-5. Select the `.yaml` theme file from the cloned `warp-themes` directory.
-6. Apply the theme.
-
-Alternatively, you can manually move the themes to Warp’s config folder:
-
 ```sh
 mkdir -p ~/.warp/themes
 cp themes/*.yaml ~/.warp/themes/
@@ -33,15 +23,6 @@ cp themes/*.yaml ~/.warp/themes/
 
 ### Windows
 Warp is now natively available on Windows. To install themes:
-
-1. Open Warp.
-2. Click on `Settings` (⚙️ icon) in the top-right corner.
-3. Navigate to the `Appearance` section.
-4. Click `Import Theme`.
-5. Select the `.yaml` theme file from the cloned `warp-themes` directory.
-6. Apply the theme.
-
-Alternatively, you can manually copy the themes to Warp’s theme folder:
 
 ```sh
 xcopy themes\*.yaml "C:\Users\<YourUsername>\AppData\Roaming\warp\Warp\data\themes" /Y
@@ -59,4 +40,3 @@ This project is open-source under the MIT License.
 
 Enjoy customizing your Warp terminal with awesome themes! 🎨
 
-# NOTE: AI Generated README *
