@@ -22,10 +22,16 @@ cp themes/*.yaml ~/.warp/themes/
 ```
 
 ### Windows
-Warp is now natively available on Windows. To install themes:
+Warp is now natively available on Windows. To install themes on warp:
 
 ```sh
-xcopy themes\*.yaml "C:\Users\<YourUsername>\AppData\Roaming\warp\Warp\data\themes" /Y
+xcopy themes\*.yaml "C:\Users\<YourUsername>\AppData\Roaming\warp\Warp\data\themes" /Y 
+```
+
+To install themes on warp preview:
+
+```sh
+xcopy themes\*.yaml "C:\Users\<YourUsername>\AppData\Roaming\warp\WarpPreview\data\themes" /Y 
 ```
 
 Replace `<YourUsername>` with your actual Windows username.
